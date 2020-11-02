@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+    <h1 class="center-align">todo list</h1>
+    <div class="row">
+        <div class="input-field col s6 offset-s3">
+            <input type="text" placeholder="input date" class="datepicker">
+            <label for="first_name">Date</label>
+        </div>
+        <div class="input-field col s6 offset-s3">
+            <input type="text" placeholder="input time" class="timepicker">
+            <label for="first_name">Time</label>
+        </div>
+        <div class="input-field col s6 offset-s3">
+          <input placeholder="input task" id="first_name" type="text" class="validate task-inp">
+          <label for="first_name">Task</label>
+        </div>
+        <a class="waves-effect waves-light btn col s2 offset-s7 add-task">Add task</a>
+        <div class="tasks">
+
+        </div>
+    </div>
+    </div>
+// сделать через таймаут скрытие и открытие
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="logic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/53ebe82a9c.js"></script>
+</body>
+</html>
